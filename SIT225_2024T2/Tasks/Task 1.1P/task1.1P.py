@@ -19,4 +19,4 @@ while True:
     if data_recv.isdigit():
         delay_time = int(data_recv)
         print(f"Received from Arduino <<< {delay_time}")
-        time.sleep(delay_time * 2)
+        time.sleep(delay_time * 2 +1)
